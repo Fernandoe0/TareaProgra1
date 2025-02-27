@@ -20,5 +20,18 @@ public class TareaProgra1 {
         cuenta1.retirar(2000); // Intento de retiro mayor al saldo disponible
         
         cuenta1.mostrarInformacion();
+        System.out.println("\n");
+        System.out.println("\n");
+        System.out.println("\n");
+        System.out.println("\n");
+        System.out.println("\n");
+        
+        //prueba de Termómetro
+        //instancia de Termómetro
+        Termometro termometro = new Termometro(32);
+        System.out.println("Temperatura en Celsius: " + termometro.getCelsius()+ "°C");
+        System.out.println("Temperatura en Kelvin: " + termometro.kelvin() + "K");
+        System.out.println("Temperatura en Fahrenheit: " + termometro.fahrenheit() + "°F");
+        
     }
-}
+    }
