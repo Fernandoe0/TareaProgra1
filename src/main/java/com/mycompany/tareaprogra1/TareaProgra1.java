@@ -48,5 +48,13 @@ public class TareaProgra1 {
         producto1.setPrecio(650.00);
         System.out.println("\n");
         producto1.mostrarInformacion();
+        
+          System.out.println("\n");
+          
+         Temporizador temporizador = new Temporizador();
+         Alarma alarma = new Alarma(10);
+         
+         temporizador.setAlarma(alarma);
+         temporizador.iniciar(25);
     }
     }
