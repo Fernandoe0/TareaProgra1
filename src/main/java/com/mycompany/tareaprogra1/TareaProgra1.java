@@ -33,5 +33,20 @@ public class TareaProgra1 {
         System.out.println("Temperatura en Kelvin: " + termometro.kelvin() + "K");
         System.out.println("Temperatura en Fahrenheit: " + termometro.fahrenheit() + "°F");
         
+        
+        System.out.println("\n");
+        System.out.println("\n");
+        System.out.println("\n");
+        System.out.println("\n");
+
+        
+        Producto producto1 = new Producto("AN101123","Cilindro de motor", 750.00);
+        producto1.mostrarInformacion();
+
+        // Intentamos asignar un precio negativo
+        producto1.setPrecio(-50);
+        producto1.setPrecio(650.00);
+        System.out.println("\n");
+        producto1.mostrarInformacion();
     }
     }
